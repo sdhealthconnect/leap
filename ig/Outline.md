@@ -21,8 +21,8 @@
 ## Functional Service Models
 *High level description of the services and and how they relate*
 *Diagrams here would be good - Some examples*
-!(image1.jpg)
-!(image2.jpg)
+!(ig/image1.jpg)
+!(ig/image2.jpg)
 ### Overview of Consent
 ### What is a Decision Service
 ### What is an Enforment Service
@@ -30,8 +30,8 @@
 ## API
 *We may want to cover the API for each service seperately
 ### Platform independent model
-!(image3.jpg)
-*We will want to cpver this in a way that makes sense for what we have*
+!(ig/image3.jpg)
+*We will want to cover this in a way that makes sense for what we have*
 ### FHIR platform model
 #### Releationship to FHIR
 **Possible areas to cover**
