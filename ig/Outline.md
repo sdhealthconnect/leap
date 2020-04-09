@@ -1,6 +1,6 @@
 # Consent Services using FHIR - Implementation Guide
-   Decision Service
-   Enforcement Service
+  - Decision Service
+  - Enforcement Service
    
 ## HL7 Title
 ## Title page
@@ -21,8 +21,8 @@
 ## Functional Service Models
 *High level description of the services and and how they relate*
 *Diagrams here would be good - Some examples*
-!(ig/image1.jpg)
-!(ig/image2.jpg)
+![Example image 1](image1.jpg)
+![Example image 2](image2.jpg)
 ### Overview of Consent
 ### What is a Decision Service
 ### What is an Enforment Service
@@ -30,7 +30,7 @@
 ## API
 *We may want to cover the API for each service seperately
 ### Platform independent model
-!(https://github.com/sdhealthconnect/leap/blob/IG-Outline/ig/image3.jpg)
+![PIM Model Image](https://github.com/sdhealthconnect/leap/blob/IG-Outline/ig/image3.jpg)
 *We will want to cover this in a way that makes sense for what we have*
 ### FHIR platform model
 #### Releationship to FHIR
