@@ -30,7 +30,7 @@
 ## API
 *We may want to cover the API for each service seperately
 ### Platform independent model
-![PIM Model Image](https://github.com/sdhealthconnect/leap/blob/IG-Outline/ig/image3.jpg)
+![PIM Model Image](image3.jpg)
 *We will want to cover this in a way that makes sense for what we have*
 ### FHIR platform model
 #### Releationship to FHIR
