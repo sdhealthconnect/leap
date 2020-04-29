@@ -37,4 +37,4 @@ In case more than one applicable consent is found, the Consent Processing Servic
 
 
 
-[architecture]: /assets/img/general-architecture.png "Figure 1. General Architecture of the Consent Decision Service"
+[architecture]: {{site.baseurl}}/assets/img/general-architecture.png "Figure 1. General Architecture of the Consent Decision Service"
