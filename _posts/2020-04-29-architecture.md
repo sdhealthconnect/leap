@@ -12,7 +12,7 @@ Once it receives a query, the CDS consults with various Consent Stores and after
 
 Consent Stores are FHIR servers where patient consents are stored. Each Consent Store may be operated by a different organization that collects and maintains patient consents.
 
-The workflow context is captured by a Consent Enforcement Service (CSE) and is sent to the CDS in the form of a query. The CSE is tightly coupled to the application and is able to collect all the relevant attributes from the context of the workflow and also to interfere in the workflow to enforce the consent decisions, for example, by rejecting an end-user request,  terminating a workflow, or modifying the workflow path or data based on obligations received from the CDS. 
+The workflow context is captured by a Consent Enforcement Service (CES) and is sent to the CDS in the form of a query. The CES is tightly coupled to the application and is able to collect all the relevant attributes from the context of the workflow and also to interfere in the workflow to enforce the consent decisions, for example, by rejecting an end-user request,  terminating a workflow, or modifying the workflow path or data based on obligations received from the CDS. 
 
 This model is depicted in Figure 1.
 
