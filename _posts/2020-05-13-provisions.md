@@ -46,13 +46,13 @@ For example, consider the structure in Figure 3 which looks very similar to the 
 *Figure 3. Another provision structure, similar to that of Figure 2 but with important differences*
 
 #### Conflict
-The current structure does not prevent conflicts while it does not provide an explicit mechanism for conflict resolution either. Since the matching takes place by traversing down the tree structure, it is not impossible for more than one path to match a request. For example, consider the structure of Figure 4. If `Org1` requests access to `Claims` for the purpose of marketing (`HMK`), there will be a conflict. One branch denies any access for the purpose of marketing while another branch permits access for marketing purposes to `Claims` by `Org1`. It is not clear how the conflict should be resolved and the current model provides no mechanism to specify this.
+The current structure does not prevent conflicts while it does not provide an explicit mechanism for conflict resolution either. Since the matching takes place by traversing down the tree structure, it is not impossible for more than one path to match a request. For example, consider the structure of Figure 4. If `Org1` requests access to `Claims` for the purpose of marketing (`HMK`), there will be a conflict. One branch denies any access for the purpose of marketing while another branch permits access for marketing purposes to `Claims` by `Org1`. It is not clear how such conflicts should be resolved and the current model provides no mechanism to specify this. Some possible resolutions could be:
 
-- Should the order determine the precedence of the rules and the first matching provision prevail?
-- Should the more general rule (shallower in the tree) override?
-- Should the more specific rule (deeper in the tree) override?
+- Assuming that the more general rule (shallower in the tree) overrides.
+- Assuming that the more specific rule (deeper in the tree) overrides.
+- Assuming that the order determines the precedence of the rules and the first matching provision prevails.
 
-These are all poor choices since they rely on implications and increase the risk of errors, unintended consequences, and poor interoperability because of the risk of different assumptions by interacting parties. Even if one of these alternatives is codified in the specifications, errors, both in modelling rules and in implementing the rule processor software are likely.
+These are all poor choices since they are left to implications, and therefore, increase the risk of errors, unintended consequences, and poor interoperability because of the risk of different assumptions by interacting parties. Even if one of these alternatives is codified in the specifications, errors, both in modelling rules and in implementing the rule processor software are likely.
 
 ![current-model-example3][current-model-example3]
 *Figure 4. A provision structure that could lead to conflicting decisions*
