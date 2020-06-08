@@ -24,7 +24,7 @@ Figure 1 shows an overview of the current provision model in the Consent resourc
 - The nested provisions state exceptions to the containing provisions. In other words, a match with a nested provision at one level, flips the higher-level decision (from `permit` or `deny` or vice versa). 
 - Provisions at the same level are interpreted disjunctively (i.e., as OR), so matching _any_ nested provision constitutes an exception. 
 
-Figure 2 shows a (hypothetical) example for this model. These provisions articulate that during the time period from 01/01/2020 to 31/12/2022, all access except is permitted except:
+Figure 2 shows a (hypothetical) example for this model. These provisions articulate that during the time period from 01/01/2020 to 31/12/2022, all access is permitted except:
 
 - Any access for the purpose of *marketing*.
 - Any access by *app1* to any restricted content.
