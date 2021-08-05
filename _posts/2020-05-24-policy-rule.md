@@ -29,3 +29,5 @@ There are two alternatives to fix this issue:
 ```
 - A simpler alternative is to specify that the `policyRule` is only used for reference in order to record the policy or regulation which is the basis of the consent and leave the computational decision entirely up to the provision structure. In this alternative, to make a decision about a given access request, the consent processor can only examine the consent provisions without having to interpret the `policyRule`.
 
+**Update**: We filed [FHIR-32817](https://jira.hl7.org/browse/FHIR-32817) to address this.
+
