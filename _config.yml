@@ -14,9 +14,9 @@ theme: jekyll-theme-minimal
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: LEAP Consent Decision Service
+title: ONC LEAP Computable Consent Project 
 description: >- # this means to ignore newlines until "baseurl:"
-  Documentation and Lessons Learned for the ONC LEAP Grant Consent Decision Service Project. 
+  Documentation and Lessons Learned for the ONC LEAP Computable Consent Project. 
 
 logo: /assets/img/sdhc.png
 show_downloads: "true"
