@@ -25,7 +25,7 @@ The LEAP Consent Management Service is an example of such a service implemented 
 ### LEAP Consent Decision Service (LEAP-CDS)
 The LEAP Consent Decision Service (LEAP-CDS) is a decision engine capable of parsing and understanding patient consents and deciding, according to the patient's preferences encoded in the consent, whether an instance of access or activity should be permitted.
 
-The LEAP Consent Decision Service (CDS) provides a simple API interface for checking consent decisions about activities in the context of a workflow, such as a record exchange, research, or treatment. 
+This service provides a simple API interface for checking consent decisions about activities in the context of a workflow, such as a record exchange, research, or treatment. 
 
 After receiving a query, the CDS consults with various Consent Stores and retrieves and processes all the `Consent` resources applicable to the context of the query. Based on this, it issues a decision as to whether or not the requested activity is permitted based on patient consents, and potentially whether any obligations apply. Additionally, it may also include a pointer to the `Consent` resource based which the decision was made to assist the client with audit and record keeping.
 
