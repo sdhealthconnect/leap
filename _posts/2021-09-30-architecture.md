@@ -27,7 +27,7 @@ The LEAP Consent Decision Service (LEAP-CDS) is a decision engine capable of par
 
 This service provides a simple API interface for checking consent decisions about activities in the context of a workflow, such as a record exchange, research, or treatment. 
 
-After receiving a query, the CDS consults with various Consent Stores and retrieves and processes all the `Consent` resources applicable to the context of the query. Based on this, it issues a decision as to whether or not the requested activity is permitted based on patient consents, and potentially whether any obligations apply. Additionally, it may also include a pointer to the `Consent` resource based which the decision was made to assist the client with audit and record keeping.
+After receiving a query, the LEAP-CDS consults with various Consent Stores and retrieves and processes all the `Consent` resources applicable to the context of the query. Based on this, it issues a decision as to whether or not the requested activity is permitted based on patient consents, and potentially whether any obligations apply. Additionally, it may also include a pointer to the `Consent` resource based which the decision was made to assist the client with audit and record keeping.
 
 ### LEAP Consent Enforcement Service (LEAP-CES)
 Consent Enforcement Services (CES) are software components that reside at various workflows or application contexts and are in charge of:
