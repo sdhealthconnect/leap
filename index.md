@@ -11,7 +11,11 @@ layout: default
 - [LEAP Consent Enforcement Service (CES) Java Client Library](https://github.com/sdhealthconnect/leap-ces-java-clients)
 
 ## Documentation
-Developer documentations are posted in the respective repositories. High-level architecture documentation and lessons-learned are posted in the [project blog](posts.html).
+- [Introductory Slides]({{site.baseurl}}/assets/pdf/introductory-slides.pdf) 
+- High-level architecture documentation and lessons-learned are posted in the [project blog](posts.html).
+- Technical and developer documentation is posted in the respective repositories.
+- Policy Landscape Report ([part 1]({{site.baseurl}}/assets/pdf/leap-policy-landscape-1.pdf), [part 2]({{site.baseurl}}/assets/pdf/leap-policy-landscape-1.pdf))
+
 
 ## About
 Funded by a grant from the [The Office of the National Coordinator for Health Information Technology (ONC)](https://www.healthit.gov/), The LEAP Computable Consent project is focused on standardization and implementation of a scalable patient consent service based on the HL7® FHIR® Consent resource. 
